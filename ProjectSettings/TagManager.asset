@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Boundary
   - 
   - 
   - 
@@ -49,4 +49,7 @@ TagManager:
     locked: 0
   - name: background
     uniqueID: 2762245043
+    locked: 0
+  - name: Boundary
+    uniqueID: 3738424877
     locked: 0
