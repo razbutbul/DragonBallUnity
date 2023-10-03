@@ -155,7 +155,7 @@ TextureImporter:
         width: 56
         height: 92
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,6 +163,27 @@ TextureImporter:
       bones: []
       spriteID: 3769bea011b534e7fb4be708975799cd
       internalID: 2012101508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guko_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 119
+        width: 94
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a973f73c4d8e24415be63426f02f4b5c
+      internalID: -990519504
       vertices: []
       indices: 
       edges: []
@@ -178,6 +199,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Guko_3: -990519504
       Guko_1: 1703862799
       Guko_2: 2012101508
       Guko_0: 685527747

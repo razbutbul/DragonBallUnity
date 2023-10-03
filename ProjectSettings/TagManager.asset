@@ -8,11 +8,11 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Logo
   - Water
   - UI
-  - 
-  - 
+  - Boundary
+  - Player
   - 
   - 
   - 
@@ -38,18 +38,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Boundary
+    uniqueID: 3738424877
+    locked: 0
+  - name: Background
+    uniqueID: 2137784283
+    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Player
-    uniqueID: 140106905
     locked: 0
   - name: Logo
     uniqueID: 2664797309
     locked: 0
-  - name: background
+  - name: Over
     uniqueID: 2762245043
     locked: 0
-  - name: Boundary
-    uniqueID: 3738424877
+  - name: Player
+    uniqueID: 140106905
     locked: 0

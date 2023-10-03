@@ -13,6 +13,7 @@ public class PlayerMovment : MonoBehaviour
     private Vector2 input;
 
 
+
     void Start()
     {
         topRightLimit = topRightLimitGameObject.transform.position;
@@ -25,8 +26,6 @@ public class PlayerMovment : MonoBehaviour
 
         input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-
-
         if ((transform.position.x <= BottomLeft.x && input.x == -1)|| (transform.position.x >= topRightLimit.x && input.x == 1)) 
         {
             input.x = 0;
@@ -35,9 +34,10 @@ public class PlayerMovment : MonoBehaviour
         {
             input.y = 0;
         }
-        if (Input.GetKeyDown(KeyCode.Space))
-       {
-           Debug.Log("hello");
+     
+        if (Input.GetKey("space"))
+        {
+            GetComponent<Rigidbody2D>().velocity = new Vector3(0,3,0);
         }
         transform.position += new Vector3(speed * input.x, speed * input.y, 0);
     }
