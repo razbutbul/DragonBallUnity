@@ -13,7 +13,7 @@ TagManager:
   - UI
   - Boundary
   - Player
-  - 
+  - About Text
   - 
   - 
   - 
@@ -55,4 +55,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 140106905
+    locked: 0
+  - name: About Text
+    uniqueID: 2445949025
     locked: 0
