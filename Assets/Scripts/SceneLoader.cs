@@ -7,7 +7,7 @@ public class SceneLoader : MonoBehaviour
 {
     [SerializeField] AboutActivation text;
     [SerializeField] PanelActivation panel;
-    bool flag = false;
+    bool flag = false; 
 
     public void LoadNextScene()
     {
